@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="active">#ffff00</color>
+    <color name="background">#ffffee</color>
+    <color name="colorWhiteSemiTransparent">#D9ffffff</color>
+    <color name="floatcolor">#d81e06</color>
+    <color name="gray">#aaaaaa</color>
+    <color name="bangray">#eeeeee</color>
+    <color name="transparent">#00000000</color>
+    <color name="bantran">#aa00ffff</color>
+    <color name="nav">#aaffffff</color>
+    <color name="haokan">#212121</color>
+    <color name="fouces">#FFB568</color>
+    <color name="rank">#00ff00</color>
+    <color name="zhuce">#1296db</color>
+    <color name="button">#995674ff</color>
+</resources>

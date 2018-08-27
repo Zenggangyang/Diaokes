@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/car_radio"
+        android:layout_marginStart="10dp"
+        android:layout_centerVertical="true"/>
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_toRightOf="@+id/car_radio"
+        android:src="@drawable/b"
+        android:id="@+id/car_img"
+        android:scaleType="centerCrop"
+        android:layout_margin="15dp"
+        android:layout_height="60dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="网易于目前我司垫付v"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:layout_toRightOf="@+id/car_img"
+        android:id="@+id/car_name"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:text="$79"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="15dp"
+        android:textColor="@color/black"
+        android:layout_marginEnd="20dp"
+        android:id="@+id/car_cost"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="20dp"
+        android:layout_alignParentRight="true">
+        <Button
+            android:layout_width="25dp"
+            android:text="-"
+            android:id="@+id/car_jian"
+            android:background="@drawable/xuxian"
+            android:layout_height="25dp" />
+        <EditText
+            android:layout_width="25dp"
+            android:background="@color/transparent"
+            android:layout_height="25dp"
+            android:textAlignment="center"
+            android:textSize="10sp"
+            android:id="@+id/car_num"
+            android:text="1"/>
+        <Button
+            android:layout_width="25dp"
+            android:text="+"
+            android:id="@+id/car_add"
+            android:background="@drawable/xuxian"
+            android:layout_height="25dp" />
+    </LinearLayout>
+</RelativeLayout>

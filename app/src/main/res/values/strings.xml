@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">钓客江湖</string>
+    <string name="tileMap3857">http://services.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer</string>//全球卫星图
+    <string name="tileMap38571">http://cache1.arcgisonline.cn/arcgis/rest/services/ChinaOnlineCommunity_Mobile/MapServer</string>//中国图
+    <string name="address_search_hint">Enter address</string>
+    <string name="feature">http://192.168.1.103:6080/arcgis/rest/services/netstand/FeatureServer/0</string>
+    <string name="yuju">http://192.168.1.103:6080/arcgis/rest/services/fishc2/FeatureServer/0</string>
+    <string name="diaochang">http://192.168.1.103:6080/arcgis/rest/services/dchang/FeatureServer/0</string>
+    <string name="alladdress">http://192.168.1.103:6080/arcgis/rest/services/features/FeatureServer/0</string>
+    <string name="route_service">http://192.168.1.103:6080/arcgis/rest/services/NetworkAnalysis/NAServer/Route</string>
+    <string name="locate_service">http://192.168.1.103:6080/arcgis/rest/services/locate_address/GeocodeServer</string>
+    <string name="users">http://192.168.1.103:6080/arcgis/rest/services/users/FeatureServer/0</string>
+    <string name="progress_title">开始...</string>
+    <string name="progress_message">正在加载...</string>
+    <string name="dt">发动态</string>
+    <string name="sp">发视频</string>
+</resources>
